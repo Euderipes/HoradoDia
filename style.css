@@ -1,0 +1,48 @@
+body{
+    background: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    color: #fff;
+    text-align: center;
+}
+
+section{
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.897);
+}
+
+footer{
+    color: #fff;
+    text-align: center;
+    font-style: italic
+}
+
+div{
+    text-align: center;
+    padding: 10px;
+}
+
+#imagem{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+@media(max-width: 450px){
+    body{
+        height: 100vh;
+    }
+
+    section{
+        width: 80%;
+    }
+}
